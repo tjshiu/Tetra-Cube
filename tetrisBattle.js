@@ -26,8 +26,19 @@ function createBoard(x, y) {
   }
   return emptyBoard;
 }
-console.log(createBoard(12, 20));
-console.table(createBoard(12, 20));
+
+const board = (createBoard(12, 20));
+
+//merge the board and pieces
+function merge(board, pieces) {
+  pieces.matrix.forEach((row, y) => {
+    row.forEach((value, x) => {
+        if (value !== 0) {
+          board[y + pieces.pos.y][x + pieces.pos.x] = value;
+        }
+    });
+  });
+}
 
 //drawing the board and pieces
 function draw() {
@@ -49,8 +60,8 @@ function drawMatrix(piece, offset) {
               context.lineWidth = 1/20;
               context.strokeStyle = "white";
               context.strokeRect(x + offset.x,
-                y + offset.y,
-                1, 1);
+                                y + offset.y,
+                                1, 1);
               // context.fill();
           }
       });
