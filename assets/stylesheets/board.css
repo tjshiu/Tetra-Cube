@@ -1,0 +1,16 @@
+
+
+#whole-game {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    font-family: "Monoton", cursive;
+    font-size: 90px;
+    text-align: center;
+}
