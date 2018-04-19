@@ -9,8 +9,14 @@
 
 }
 
-div {
+h1 {
     font-family: "Monoton", cursive;
     font-size: 90px;
+    font-weight: 100;
     text-align: center;
+}
+
+label {
+    font-size: 30px;
+
 }
