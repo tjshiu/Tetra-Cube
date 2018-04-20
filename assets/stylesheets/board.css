@@ -1,4 +1,8 @@
-
+body {
+  background-image: url("../images/b3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 #whole-game {
     width: 100%;
@@ -9,14 +13,66 @@
 
 }
 
+img {
+  height: 50px;
+}
+
+nav {
+  border-bottom: 1px solid lightgrey;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 h1 {
     font-family: "Monoton", cursive;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 100;
     text-align: center;
 }
 
 label {
     font-size: 30px;
+    font-family: "Monoton", cursive;
+    margin-bottom: 30px;
 
+}
+
+#start-button {
+  padding-left: 10px;
+  font-family: "Monoton", cursive;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#start-button:hover {
+  background-color: #202328;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.Container {
+  display: flex;
+  /* padding: 20px; */
+  /* border: 1px olid black; */
+}
+
+.right-side, .left-side{
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
 }
