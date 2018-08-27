@@ -1,4 +1,4 @@
-# Tetris Battle
+# Tetra-Cube
 
 [Live Demo](https://tjshiu.github.io/Tetris-Battle/)
 
