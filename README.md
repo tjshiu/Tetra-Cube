@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # Tetra-Cube
-=======
-# Tetris
->>>>>>> 0063a4e2b5f12210ef1b7da8a7020b7afa8f566d
+
 
 [Live Demo](https://tjshiu.github.io/Tetris/)
 
