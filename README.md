@@ -12,7 +12,7 @@ This project was built in a week. I do plan on continuing with the project and m
 * Keeps track of number of lines cleared
 * Restarts automatically
 
-![Tetris Demo](https://github.com/tjshiu/Tetris-Battle/blob/master/assets/images/Tetris%20Demo.gif)
+![Tetra Cube Demo](https://github.com/tjshiu/Tetris-Battle/blob/master/assets/images/tetra-cube.gif)
 
 ## Project Design
 Tetris battle was designed to be played against others. The focus is to be bug free and user friendly.
