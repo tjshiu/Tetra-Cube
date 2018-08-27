@@ -1,9 +1,9 @@
 # Tetra-Cube
 
 
-[Live Demo](https://tjshiu.github.io/Tetris/)
+[Live Demo](https://tjshiu.github.io/Tetra-Cube/)
 
-Tetris battle is an interactive game. It's a classic game that many have played. It uses javascript, CSS, HTML5 and HTML canvas.
+Tetra-Cube is an interactive game. It's inspired by the classic Tetras game that many have played. It uses javascript, CSS, HTML5 and HTML canvas.
 This project was built in a week. I do plan on continuing with the project and making improvements over time.
 
 ## Features
