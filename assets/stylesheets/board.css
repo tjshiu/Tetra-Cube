@@ -44,7 +44,7 @@ label {
 
 }
 
-#start-button {
+ #pause-button, #start-button {
   padding-left: 10px;
   font-family: "Monoton", cursive;
   font-size: 30px;
@@ -54,9 +54,10 @@ label {
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
+  margin: 20px;
 }
 
-#start-button:hover {
+#pause-button:hover, #start-button:hover {
   background-color: #202328;
   color: lightgrey;
   cursor: pointer;
